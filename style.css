@@ -1,0 +1,68 @@
+h1{
+    margin-left: 80px;
+}
+.slider{
+    width: 500px;
+    height: 500px;
+overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 480px;
+    height: 500px;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    10%{margin-left: 0;}
+
+    15%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    50%{margin-left: -200%;}
+
+    55%{margin-left: -300%;}
+    70%{margin-left: -300%;}
+
+    75%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+.parrafo{
+    text-align: center;
+    width: 25%;
+}
+.default{
+    border: 2px solid #191C26;
+}
+.default td{
+    border: 2px solid #191C26;
+}
