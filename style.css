@@ -65,6 +65,8 @@ overflow: hidden;
 }
 .default{
     border: 2px solid #191C26;
+    font-family: fantasy;
+    background-color: aqua;
 }
 .default td{
     border: 2px solid #191C26;
